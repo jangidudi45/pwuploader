@@ -258,7 +258,7 @@ async def download_video(url,cmd, name):
 
 
 async def send_doc(bot: Client, m: Message, cc, ka, cc1, prog, count, name):
-    reply = await m.reply_text(f"**@JB_OFFICIAL2210 ...⏳**\n\n📚𝐓𝐢𝐭𝐥𝐞 » {name}\n\n✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ @DOCTOR_JB")
+    reply = await m.reply_text(f"**@JB_OFFICIAL2210 ...⏳**\n\n📚𝐓𝐢𝐭𝐥𝐞 » {name}\n\n✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ @Maisamyahu")
     time.sleep(1)
     start_time = time.time()
     await bot.send_document(ka, caption=cc1)

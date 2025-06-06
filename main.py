@@ -523,11 +523,7 @@ async def txt_handler(bot: Client, m: Message):
         CR = '[@DOCTOR_JB](@JB_OFFICIAL2210)'
     else:
         CR = raw_text3
-    if raw_text10 == '2':
-        BR = @shivamsbi
-    else:
-        BR = raw_text10
-
+    
     await editable.edit("**🔹Enter Your PW Token For 𝐌𝐏𝐃 𝐔𝐑𝐋\n🔹Send /anything for use default**")
     input4: Message = await bot.listen(editable.chat.id)
     raw_text4 = input4.text
